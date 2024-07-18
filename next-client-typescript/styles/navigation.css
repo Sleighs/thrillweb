@@ -1,0 +1,50 @@
+/* Add font
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+} 
+  
+*/
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+.navigation--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+.navigation--menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.navigation--menu-item {
+  cursor: pointer;
+  padding: 0 15px;
+}
+.navigation--get-started-button {
+  cursor: pointer;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.navigation--hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1125px) {
+  
+}
