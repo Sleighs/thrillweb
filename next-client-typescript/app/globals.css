@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Red Hat Display";
+    src: url('../public/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf') format("truetype");
+  }
+  @font-face {
+    font-family: "Red Hat Display";
+    font-style: italic;
+    src: url('../public/fonts/Red_Hat_Display/RedHatDisplay-Italic-VariableFont_wght.ttf') format("truetype");
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -13,8 +25,6 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-start-rgb: 4, 32, 38;
-
-    
     --background-end-rgb: 0, 0, 0;
   }
 }
@@ -27,6 +37,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: "Red Hat Display";
 }
 
 @layer utilities {
