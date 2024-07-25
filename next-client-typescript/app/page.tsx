@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/home/HeroSection";
 import Navigation from "./components/Navigation";
 import HeroSectionSocialMedia from "./components/home/HeroSectionSocialMedia";
+import HomeServicesPreview from './components/home/HomeServicesPreview';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <HeroSectionSocialMedia />
+      <HomeServicesPreview />
       <Footer />
     </main>
   );

@@ -14,15 +14,10 @@
   padding: 0 40px;
 }
 .hero-section--content {
-  /* max-width: 925px; */
-  /* margin: auto; */
   width: 100%;
   height: 100%;
   max-width: 1400px;
   display: flex;
-  /* flex-direction: column;
-  align-items:baseline;
-  justify-content:space-between; */
   
 }
 .hero-section--title {
@@ -33,7 +28,7 @@
   font-weight: 700;
   margin-bottom: 30px;
   width: 100%;
-  max-width: 940px;
+  max-width: 975px;
 }
 .hero-section--description {
   color: white;
@@ -132,6 +127,8 @@
   .hero-section--title {
     font-size: 100px;
     max-width: 1050px;
+    
+  line-height: 100px;
   }
 }
 

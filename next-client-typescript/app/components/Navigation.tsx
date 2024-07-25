@@ -46,7 +46,11 @@ export default function Navigation({}: Props) {
       display: 'flex',
     }}>
       <div className="navigation--container">
-        <div className="navigation--logo">PulseWeb</div>
+        <div className="navigation--logo">
+          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>P</span>
+          <span style={{fontWeight: 400}}>ULSE</span>
+          <span style={{fontWeight: 300}}>WEB</span>
+        </div>
 
         <div className="navigation--menu">
           <div className="navigation--menu-item">Home</div>
