@@ -54,6 +54,9 @@
   padding: 12px 25px;
   background:#FFFFFF14;
 }
+.navigation--get-started-button:hover {
+  color: #38C1C9;
+}
 .navigation--hamburger {
   display: none;
 }

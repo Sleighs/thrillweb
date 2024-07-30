@@ -2,12 +2,14 @@
 
 import '../app/globals.css';
 import '../styles/home.css';
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import HeroSection from "./components/home/HeroSection";
-import Navigation from "./components/Navigation";
 import HeroSectionSocialMedia from "./components/home/HeroSectionSocialMedia";
 import HomeServicesPreview from './components/home/HomeServicesPreview';
-
+import HomeTrustedWorldwideSection from './components/home/HomeTrustedWorldwideSection';
+import HomeNumbersSection from './components/home/HomeNumbersSection';
+import HomeWhyUsSection from './components/home/HomeWhyUsSection';
 
 export default function Home() {
   return (
@@ -16,6 +18,9 @@ export default function Home() {
       <HeroSection />
       <HeroSectionSocialMedia />
       <HomeServicesPreview />
+      <HomeTrustedWorldwideSection />
+      <HomeNumbersSection />
+      <HomeWhyUsSection />
       <Footer />
     </main>
   );

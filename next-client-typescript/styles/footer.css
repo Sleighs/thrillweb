@@ -33,6 +33,7 @@
 }
 .footer--logo-mobile {
   display: none;
+  color: #38C1C9;
 }
 .footer--section {
   display: flex;
@@ -109,6 +110,9 @@
 }
 
 @media screen and (max-width: 1025px) {
+  .footer {
+    padding: 50px 40px;
+  }
   .footer--logo {
     display: none;
   }
