@@ -74,6 +74,12 @@ mx record
 mail
 mxb.mailgun.org.
 
+***
+gohighlevel
+cname @ 162.159.140.166
+
+whitelabel.ludicrous.cloud.
+a record
 
 ***
 
