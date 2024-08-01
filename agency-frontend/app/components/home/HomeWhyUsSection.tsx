@@ -126,6 +126,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
           </div>
         </div>
 
+
         <div className="home-why-us-section--scroll-section">
           <div className="home-why-us-section--scroll-text">Scroll Down</div>
         </div>

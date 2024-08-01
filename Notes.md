@@ -166,12 +166,24 @@ Things to remove
     - emotion is the enemy to business
 
 
+How to be consistent | Charlie Morgan
+- making a billion is where he wants to be on the scoreboard among people
+- 
 
 
 
 
+***
 
+Pain and resistance - Charlie Morgan
 
+Former self causes resistance from fear of changing.
+The more pain you overcome the faster you grow.
+Seek as much pain as possible.
+
+Without pain and suffering you cannot become.
+
+Look at it, lock eyes, don't look away.
 
 
 

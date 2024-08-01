@@ -28,6 +28,7 @@
   - Who is this for
   - Gauranteed
   - Contact - Try for free for 7 days
+  - Footer
 
 # What do I want to have done by the end of today?
 - A website template 
