@@ -1,24 +1,12 @@
 .home-why-us-section {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 4fr 4fr 1fr;
   background: #f6f6f6; 
   color: #021013;
   font-family: 'Red Hat Display', sans-serif;
-  padding: 50px 40px;
+  padding-left: 40px;
   padding-right: 0;
-}
-.home-why-us-section--content {
-  display: grid;
-  grid-template-columns: 3fr 3fr 1fr;
-  
-  /* flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between; */
-  width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -31,39 +19,19 @@
   background: white;
   padding: 20px;
   width: 100%;
-  /* max-width: 43%; */
   height: fit-content;
   position: sticky;
   bottom: 0;
-  margin-top: 20px;
+  margin: 60px 0;
 }
 .home-why-us-section--section-ghost {
   display: none;
 }
-.home-why-us-section--ghost-active {
-  width: 100%;
-  position: sticky;
-}
 .home-why-us-section--active {
   top: 125px;
+  position: sticky;
 }
-.home-why-us-section--scroll-section {
-  width: 100%;
-  max-width: 130px;
-  background:#021013;
-  color: white;
-  height: auto;
-}
-.home-why-us-section--scroll-text {
-  
-}
-.home-why-us-section--section2-item {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .home-why-us-section--subtitle {
   color: #38C1C9;
   font-size: 15px;
@@ -98,11 +66,17 @@
   background: transparent;
   padding: 20px;
   width: 100%;
-  gap: 25px;
+  gap: 50px;
+  margin: 30px 0;
 }
 .home-why-us-section--section2-item {
   padding: 0 50px;
   margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .home-why-us-section--section2-text {
   display: flex;
@@ -148,6 +122,21 @@
   width: fit-content;
 }
 
+/* SCROLL SECTION */
+.home-why-us-section--scroll-section {
+  width: 100%;
+  /* max-width: 130px; */
+  background:#000000;
+  color: white;
+  height: auto;
+  position: sticky;
+  right: 0;
+  height: 100%;
+  padding: 60px 10px;
+}
+.home-why-us-section--scroll-text {
+  transform: rotate(90deg);
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1400px) {

@@ -11,6 +11,7 @@ import HomeTrustedWorldwideSection from './components/home/HomeTrustedWorldwideS
 import HomeNumbersSection from './components/home/HomeNumbersSection';
 import HomeWhyUsSection from './components/home/HomeWhyUsSection';
 import HomeContactForm from './components/home/HomeContactForm';
+import HomePortfolioHighlight from './components/home/HomePortfolioHighlight';
 
 export default function Home() {
   return (
@@ -22,7 +23,8 @@ export default function Home() {
       <HomeTrustedWorldwideSection />
       <HomeNumbersSection />
       <HomeWhyUsSection />
-      <HomeContactForm />
+      <HomePortfolioHighlight />
+      {/* <HomeContactForm /> */}
       <Footer />
     </main>
   );

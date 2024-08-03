@@ -12,7 +12,7 @@ export default function HomeContactForm (props: IHomeContactFormProps) {
           Contact Us
         </div>
         <div className="home-contact-form--description">
-          We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as possible.
+          {`We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as possible.`}
         </div>
         <div className="home-contact-form--form">
           <div className="home-contact-form--input">

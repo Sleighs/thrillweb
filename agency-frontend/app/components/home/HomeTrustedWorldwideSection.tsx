@@ -32,7 +32,7 @@ export default function HomeTrustedWorldwideSection(props: IAppProps) {
           <div className="home-trusted-worldwide-section--customer-comment">
             <div className="home-trusted-worldwide-section--customer-comment-content">
               <div className="home-trusted-worldwide-section--customer-comment-text">
-                "Working with PulseWeb was a breath. An efficient and responsive team. They created a beautiful identity and a perfect <span style={{color: '#38C1C9'}}>custom website</span> for our company.
+                &quot;Working with PulseWeb was a breath. An efficient and responsive team. They created a beautiful identity and a perfect <span style={{color: '#38C1C9'}}>custom website</span> for our company.
               </div>
               <div className="home-trusted-worldwide-section--customer-comment-author">
                 <div className="home-trusted-worldwide-section--customer-comment-author-name">Dave M.</div>

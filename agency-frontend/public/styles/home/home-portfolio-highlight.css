@@ -1,0 +1,19 @@
+.home-portfolio-highlight {
+
+}
+.home-portfolio-highlight--info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  max-width: 485px;
+  margin: 0 auto;
+  padding: 15px 50px 15px 15px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.home-portfolio-highlight--info-section--title {
+  font-size: 80px;
+
+  font-weight: 700;
+}

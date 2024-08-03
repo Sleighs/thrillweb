@@ -113,7 +113,7 @@ How to Focus for 12+ hours a day like a millionaire - Charlie Morgan - https://w
   - waiting - not working to wait to see if things change
   - criticism - not working because you're afraid of peoples criticism
   - support - dont feel have enough support or accountability partner
-  - ...
+  - entitlement - because you feel entitled not to work
   - routine - not working because no coffee
   - self-love - not working to avoid pain
 - (from other video maybe?) Illness and injury consumes body's focus to manage the condition and stress 
@@ -129,6 +129,14 @@ How to Focus for 12+ hours a day like a millionaire - Charlie Morgan - https://w
   - Phone apps, desktop apps
   - 
 - "If you dont understand resistance (procrastination, doubt, fear, judgement), if you cant define its first principle, you're never going to fix this problem. You're always going to exist in this cycle of up-and-down, self-sabotage and self-hatred." 4min
+
+A coup against your former self
+- The only thing you have, to destroy and assassinate the current version of yourself is pain. Every time something in this and you do with effort, part of the former you dies.
+
+Identities form belief systems
+Belief systems manifest in actions
+
+In order for you to kill something it is done through pain
 
 - Visualize
 

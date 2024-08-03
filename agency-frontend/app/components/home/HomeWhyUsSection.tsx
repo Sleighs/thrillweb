@@ -5,8 +5,9 @@ export interface IAppProps {
 }
 
 export default function HomeWhyUsSection (props: IAppProps) {
-  const containerRef = useRef(null);
-  const sectionRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   const handleScroll = () => {
     const rect = containerRef?.current?.getBoundingClientRect();
@@ -16,10 +17,12 @@ export default function HomeWhyUsSection (props: IAppProps) {
       return
     }
     // If section is in view port
-    if (rect.top  < 80 && rect.bottom > 0) {
+    if (rect && rect.top < 80 && rect.bottom > 0) {
       sectionRef?.current?.classList.add('home-why-us-section--active');
+      scrollRef?.current?.classList.add('home-why-us-section--active');
     } else {
       sectionRef?.current?.classList.remove('home-why-us-section--active');
+      scrollRef?.current?.classList.remove('home-why-us-section--active');
     }
   }
 
@@ -32,7 +35,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
 
   return (
     <div className="home-why-us-section" ref={containerRef}>
-      <div className="home-why-us-section--content">
+      {/* <div className="home-why-us-section--content"></div> */}
         <div className="home-why-us-section--section-ghost"></div>
         <div className="home-why-us-section--section1" ref={sectionRef}>
           <div className="home-why-us-section--subtitle">
@@ -128,9 +131,9 @@ export default function HomeWhyUsSection (props: IAppProps) {
 
 
         <div className="home-why-us-section--scroll-section">
-          <div className="home-why-us-section--scroll-text">Scroll Down</div>
+          <div className="home-why-us-section--scroll-text" ref={scrollRef} >Just Scroll</div>
         </div>
-      </div>
+      
     </div>
   );
 }
