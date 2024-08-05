@@ -1,9 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import '../../public/styles/navigation.css'
+import { useDataContext } from '../contexts/DataContext';
 
 type Props = {}
 
 export default function Navigation({}: Props) {
+  const { currentPage } = useDataContext();
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navState, setNavState] = useState('navigation--top');
   const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +70,7 @@ export default function Navigation({}: Props) {
           </svg>
         </div>
       </div>
-      {/* {isOpen && <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />} */}
+      {isOpen && <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />}
     </div>
   )
 }
@@ -80,24 +82,53 @@ type HamburgerProps = {
 
 const HamburgerMenu = ({ isOpen, setIsOpen}: HamburgerProps) => {
   return (
-    <div className={`hamburger--menu humburger--menu-${isOpen ? 'open' : 'closed'}`}>
-      <div className="navigation">
-        <div className="navigation--logo">PulseWeb</div> 
-        <div className="hamburger-menu--close-button" onClick={() => setIsOpen(false)}>X</div>
+    <div className={`hamburger-menu humburger-menu--${isOpen ? 'open' : 'closed'}`}>
+      <div className="hamburger-menu--navigation">
+        <div className="navigation--logo">
+          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>P</span>
+          <span style={{fontWeight: 400}}>ULSE</span>
+          <span style={{fontWeight: 300}}>WEB</span>
+        </div> 
+        <div className="hamburger-menu--close-button" 
+          onClick={() => setIsOpen(false)}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg>
+        </div>
       </div>
 
-      <div className="hamburger-menu--item-section">
-        <div className="hamburger-menu--item">Home</div>
-        <div className="hamburger-menu--item">About Us</div>
-        <div className="hamburger-menu--item">Services +</div>
-        <div className="hamburger-menu--item">Our Work</div>
-        <div className="hamburger-menu--item">Contact Us</div>
-        <div className="hamburger-menu--item">Pulse your project</div>
-      </div>
+      <div className="hamburger-menu--content">
 
-      <div className="hamburger-menu--contact-section">
-        Contact
-      </div>      
+        <div className="hamburger-menu--item-section">
+          <div className="hamburger-menu--item">Home</div>
+          <div className="hamburger-menu--item">About Us</div>
+          <div className="hamburger-menu--item">Services +</div>
+          <div className="hamburger-menu--item">Our Work</div>
+          <div className="hamburger-menu--item">Contact Us</div>
+          <div className="hamburger-menu--item hamburger-menu--get-started">
+            <span>Get Started</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+            </svg>
+          </div>
+        </div>
+
+        <div className="hamburger-menu--contact-section">
+          <div className="hamburger-menu--call-us">
+            <div className="hamburger-menu--call-us-title">Call us</div>
+            <div className="hamburger-menu--call-us-text">+1 415 555 5555</div>
+            <div className="hamburger-menu--call-us-text">+1 415 555 5555</div>
+          </div>
+
+          <div className="hamburger-menu--email-us">
+            <div className="hamburger-menu--email-us-title">Send us a message</div>
+            <div className="hamburger-menu--email-us-text">hello@pulseweb.com</div>
+            <div className="hamburger-menu--email-us-text">contact@pulseweb.com</div>
+          </div>
+        </div>      
+
+      </div>
     </div>
   )
 }

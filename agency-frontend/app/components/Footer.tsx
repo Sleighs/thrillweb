@@ -31,13 +31,20 @@ export default function Footer({}: Props) {
             </div>
 
             <div className="footer--social-media-section">
-              <div className="footer--menu-item">Facebook</div>
-              <div className="footer--menu-item">Twitter</div>
-              <div className="footer--menu-item">Instagram</div>
-              <div className="footer--menu-item">LinkedIn</div>
-              <div className="footer--menu-item">Github</div>
-              <div className="footer--menu-item">Dribbble</div>
-              <div className="footer--menu-item">Behance</div>
+              <div className="footer--social-media-menu-item">Facebook</div>
+              <div className="footer--social-media-menu-item">Twitter</div>
+              <div className="footer--social-media-menu-item">Instagram</div>
+              <div className="footer--social-media-menu-item">LinkedIn</div>
+              <div className="footer--social-media-menu-item">Github</div>
+              <div className="footer--social-media-menu-item">Dribbble</div>
+              <div className="footer--social-media-menu-item">Behance</div>
+              <div className="footer--social-media-menu-item-icon">FB</div>
+              <div className="footer--social-media-menu-item-icon">TW</div>
+              <div className="footer--social-media-menu-item-icon">IN</div>
+              <div className="footer--social-media-menu-item-icon">LI</div>
+              <div className="footer--social-media-menu-item-icon">GH</div>
+              <div className="footer--social-media-menu-item-icon">DR</div>
+              <div className="footer--social-media-menu-item-icon">BE</div>
             </div>
           
             <div className="footer--menu">

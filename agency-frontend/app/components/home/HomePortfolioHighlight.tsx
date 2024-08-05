@@ -14,8 +14,8 @@ export default function HomePortfolioHighlight (props:IHomePortfolioHighlightPro
           We put the <span style={{color: '#38c1c8'}}>Spark</span> in your eyes
         </div>
         <div className="home-portfolio-highlight--info-section--description">
-          <p>Yes, we are proud to highlight the people we’ve recently worked with and the job we’ve completed for them.</p>
-          <p>We are dedicated to changing the market as a top SEO and web design firm with innovative problem-solving, adaptable technique, steadfast ethics, and years of expertise.</p>
+          <div className="home-portfolio-highlight--info-section--description-text">{`Yes, we are proud to highlight the people we’ve recently worked with and the job we’ve completed for them.`}</div>
+          <div className="home-portfolio-highlight--info-section--description-text">{`We are dedicated to changing the market as a top SEO and web design firm with innovative problem-solving, adaptable technique, steadfast ethics, and years of expertise.`}</div>
         </div>
         <div className="home-portfolio-highlight--info-section--button">
           <div>Get Started</div>
@@ -25,20 +25,20 @@ export default function HomePortfolioHighlight (props:IHomePortfolioHighlightPro
           </svg>
         </div>
       </div>
+      
       <div className="home-portfolio-highlight--image-section">
         <div className="home-portfolio-highlight--image-section--slideshow">
-          <div className="home-portfolio-highlight--image-section--slideshow--slide">
+          <div className="home-portfolio-highlight--image-section--slideshow--slide home-portfolio-highlight--image-section--slideshow--slide1">
             <div className="home-portfolio-highlight--image-section--slideshow--slide--image">
-              <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" />
+              <img src="https://cdn.dribbble.com/users/2547736/screenshots/16876433/media/829e18ea253efbf97917e2857dbfd168.png?resize=1000x750&vertical=center" alt="Avatar" />
             </div>
           </div>
-          <div className="home-portfolio-highlight--image-section--slideshow--slide">
+          <div className="home-portfolio-highlight--image-section--slideshow--slide home-portfolio-highlight--image-section--slideshow--slide2">
             <div className="home-portfolio-highlight--image-section--slideshow--slide--image">  
-              <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" />
+              <img src="https://cdn.dribbble.com/userupload/6950262/file/original-cd0527442106b2cc109a7eb18c40c054.png?resize=1024x768" alt="Avatar" />
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

@@ -4,11 +4,10 @@
   align-items: center;
   justify-content: center;
   min-height: 685px;
-  max-height: 685px;
   height: 100%;
   width: 100%;
   font-family: 'Red Hat Display', sans-serif;
-
+  background: #021013;
 }
 
 .home-trusted-worldwide-section--content {
@@ -49,7 +48,7 @@
   font-size: 15px;
   font-weight: 400;
   width: 100%;  
-  /* max-width: 535px; */
+  gap: 10px;
 }
 .home-trusted-worldwide-section--info-button {
   margin-top: 30px;
@@ -77,7 +76,7 @@
   width: 420px;
   height: 220px;
   background: #F9F9F9;
-  translate: -40PX 220px;
+  translate: -40px 220px;
   position: static;
   padding: 15px;
   border-right: solid 4px #38C1C9;
@@ -108,6 +107,44 @@
 
 @media screen and (max-width: 1025px) {
   .home-trusted-worldwide-section {
+    height: fit-content;
+  }
+  .home-trusted-worldwide-section--content {
     flex-direction: column;
+  }
+  .home-trusted-worldwide-section--info {
+    width: 100%;
+    max-width: 100%;
+  }
+  .home-trusted-worldwide-section--customer-comment {
+    width: 440px;
+    translate: 450px -280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-trusted-worldwide-section--info {
+    padding-bottom: 80px;
+  }
+  .home-trusted-worldwide-section--info-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .home-trusted-worldwide-section--info-description {
+    font-size: 15px;
+  }
+  .home-trusted-worldwide-section--customer-comment {
+    width: 315px;
+    height: 220px;
+    translate: 150px -275px;
+  }
+  .home-trusted-worldwide-section--customer-comment-text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-trusted-worldwide-section--customer-comment {
+
+    translate: 55px -280px;
   }
 }

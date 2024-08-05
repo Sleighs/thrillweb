@@ -2,8 +2,10 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 interface DataContextProps {
-  data: string;
+  data: string;  
   setData: React.Dispatch<React.SetStateAction<string>>;
+  currentPage: string;
+  setCurrentPage: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const DataContext = createContext<DataContextProps | undefined>(undefined);
@@ -14,9 +16,16 @@ interface DataContextProviderProps {
 
 export const DataContextProvider: React.FC<DataContextProviderProps> = ({ children }) => {
   const [data, setData] = useState<string>('initial data');
+  const [currentPage, setCurrentPage] = useState<string>('Home');
 
   return (
-    <DataContext.Provider value={{ data, setData }}>
+    <DataContext.Provider value={{ 
+      data, 
+      setData,
+      currentPage, 
+      setCurrentPage
+    
+    }}>
       {children}
     </DataContext.Provider>
   );

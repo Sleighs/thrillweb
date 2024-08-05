@@ -12,20 +12,24 @@ import HomeNumbersSection from './components/home/HomeNumbersSection';
 import HomeWhyUsSection from './components/home/HomeWhyUsSection';
 import HomeContactForm from './components/home/HomeContactForm';
 import HomePortfolioHighlight from './components/home/HomePortfolioHighlight';
+import { DataContextProvider } from './contexts/DataContext';
 
 export default function Home() {
   return (
-    <main className="main">
-      <Navigation />
-      <HeroSection />
-      <HeroSectionSocialMedia />
-      <HomeServicesPreview />
-      <HomeTrustedWorldwideSection />
-      <HomeNumbersSection />
-      <HomeWhyUsSection />
-      <HomePortfolioHighlight />
-      {/* <HomeContactForm /> */}
-      <Footer />
-    </main>
+    <DataContextProvider>
+      <main className="main">
+        <Navigation />
+        <HeroSection />
+        <HeroSectionSocialMedia />
+        <HomeServicesPreview />
+        <HomeTrustedWorldwideSection />
+        <HomeNumbersSection />
+        <HomeWhyUsSection />
+        <HomePortfolioHighlight />
+        {/* <HomeContactForm /> */}
+        <Footer />
+      </main>
+    </DataContextProvider>
+    
   );
 }

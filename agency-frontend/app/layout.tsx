@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "THRILLWEB Studio - South Jersey Web Design Agency",
-  description: "ThrillWeb Studio - South Jersey Web Design Agency",
+  title: "PULSEWEB Studio - South Jersey Web Design Agency",
+  description: "PulseWeb Studio - South Jersey Web Design Agency",
 };
 
 export default function RootLayout({
