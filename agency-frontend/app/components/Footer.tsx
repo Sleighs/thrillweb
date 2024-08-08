@@ -6,7 +6,9 @@ export default function Footer({}: Props) {
   return (
     <div className="footer">
       <div className="footer--container">
-        <div className="footer--logo">P</div>
+        <div className="footer--logo">
+          <img src="https://imgbox.com/TqzQchEa" alt="PulseWeb" />
+        </div>
         <div className="footer--logo-mobile">
           <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>P</span>
           <span style={{fontWeight: 400, fontSize: '42px'}}>ULSE</span>
