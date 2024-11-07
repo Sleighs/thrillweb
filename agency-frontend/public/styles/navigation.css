@@ -191,6 +191,6 @@
     display: none;
   }
   .navigation--get-started-button {
-    display: none;
+    /* display: none; */
   }
 }

@@ -39,20 +39,22 @@ export default function HomeWhyUsSection (props: IAppProps) {
         <div className="home-why-us-section--section-ghost"></div>
         <div className="home-why-us-section--section1" ref={sectionRef}>
           <div className="home-why-us-section--subtitle">
-            Why PulseWeb?
+            Why ThrillWeb?
             </div>
           <div className="home-why-us-section--title">
             Why should you hire us to create your online business solution?
           </div>
           <div className="home-why-us-section--description">
             <p>We help companies all around the world develop a strong online presence thanks to our 24/7, accessible internet services. Our team is enthusiastic about what we do and continuously keeps up with the most recent business news. Because each member of our staff is a qualified specialist in their particular sector, we can guarantee the greatest outcomes for our clients.</p>
-            <p>Selecting PULSEWEB: Why? In addition to helping companies all over the world establish an unrivaled online presence, we make sure that their solutions are constantly accessible online, around-the-clock, and from any location. We are honored to assist clients in Miami and all over the world. Businesses all across the world have come to trust us because of our solid track record and top-notch services.</p>
+            <p>Selecting THRILLWEB: Why? In addition to helping companies all over the world establish an unrivaled online presence, we make sure that their solutions are constantly accessible online, around-the-clock, and from any location. We are honored to assist clients in the Tri-State area and all over the world. Businesses all across the world have come to trust us because of our solid track record and top-notch services.</p>
           </div>
           <div className="home-why-us-section--request-quote-button">
-            <span>Request a free quote</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                    <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                </svg>
+            <a href="mailto:contact@thrillwebdigital.com" target="_blank" style={{ textDecoration: 'none', display: 'flex', flexDirection: 'row', gap : '7px', alignItems: 'center',userSelect: 'none' }}>
+              <span>Request a free quote</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -63,7 +65,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
               <div className="home-why-us-section--section2-item-title">Always Available</div>
               <div className="home-why-us-section--section2-item-description">Imagine that you receive a late-night call from a customer or prospective client asking for information, and you are unable to answer. However, if your company has a website, it is constantly open and available to anyone who wants to learn more, around-the-clock!</div>
             </div>
-            <div className="home-why-us-section--section2-image">
+            <div className="home-why-us-section--section2-image home-why-us-section--section2-icon1">
               </div>
           </div>
 
@@ -76,7 +78,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
                 <p>Due to the diversity of advertising and marketing opportunities they provide, high-performance websites can be highly beneficial for businesses.</p>
               </div>
             </div>
-            <div className="home-why-us-section--section2-image">
+            <div className="home-why-us-section--section2-image home-why-us-section--section2-icon2">
             </div>
           </div>
 
@@ -89,7 +91,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
                 <p>Don’t pass up the chance to maximize the capabilities of your website and advance your company.</p>
               </div>
             </div>
-            <div className="home-why-us-section--section2-image"></div>
+            <div className="home-why-us-section--section2-image home-why-us-section--section2-icon3"></div>
           </div>
 
           <div className="home-why-us-section--section2-item">
@@ -101,7 +103,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
                 <p>Thanks to the new online solution you’ve implemented, your consumers can now reach you more easily.</p>
               </div>
             </div>
-            <div className="home-why-us-section--section2-image"></div>
+            <div className="home-why-us-section--section2-image home-why-us-section--section2-icon4"></div>
           </div>
 
           <div className="home-why-us-section--section2-item">
@@ -113,16 +115,18 @@ export default function HomeWhyUsSection (props: IAppProps) {
                 <p>Let us take care of that.</p>
               </div>
             </div>
-            <div className="home-why-us-section--section2-image"></div>
+            <div className="home-why-us-section--section2-image home-why-us-section--section2-icon5"></div>
           </div>
 
           <div className="home-why-us-section--section2-item">
             <div className="home-why-us-section--section2-text2">
               <div  className="home-why-us-section--learn-more-text">Since 2019, our businesses have been expanding, and we have no plans to stop anytime soon.</div>
-              <div className="home-why-us-section--learn-more-button">
-              <span>Learn more about PULSEWEB</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+              <div className="home-why-us-section--learn-more-button" style={{display: 'flex', alignItems: 'center', gap: '7px', userSelect: 'none'}}>
+                {/* <span>Learn more about THRILLWEB</span> */}
+                {/** add link to our phone # */}
+                <a href="tel:954-261-2792">Call us and get started</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
                 </svg>
               </div>
             </div>

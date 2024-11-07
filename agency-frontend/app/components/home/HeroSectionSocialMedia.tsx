@@ -6,10 +6,13 @@ export interface IAppProps {
 
 export default function HeroSectionSocialMedia (props: IAppProps) {
   return (
-    <div className="hero-section--social-media">
+    <div className="hero-section--social-media" style={{userSelect: 'none'}}>
       <div className="hero-section--social-media-section">
 
           <div className="hero-section--social-media-row">
+          <div className="hero-section--social-media-item hero-section--social-media-text-intro">
+            Coming Soon:
+          </div>
             <div className="hero-section--social-media-item">
               <div className="hero-section--social-media-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">

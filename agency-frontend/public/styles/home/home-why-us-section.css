@@ -100,9 +100,9 @@
 }
 .home-why-us-section--section2-image {
   display: flex;
-  border: solid 1px #38C1C9;
-  height: 250px;
-  width: 250px;
+  /* border: solid 1px #38C1C9; */
+  height: 240px;
+  width: 240px;
 }
 .home-why-us-section--section2-text2 {
   width: 100%;
@@ -141,12 +141,34 @@
   background: url();
 }
 
+
+.home-why-us-section--section2-icon1 {
+  background: url('../../images/SEO-Performance.png') no-repeat center;
+  background-size: cover;
+}
+.home-why-us-section--section2-icon2 {
+  background: url('../../images/Store.png') no-repeat center;
+  background-size: cover;
+}
+.home-why-us-section--section2-icon3 {
+  background: url('../../images/Money-Making-Strategy.png') no-repeat center;
+  background-size: cover;
+}
+.home-why-us-section--section2-icon4 {
+  background: url('../../images/Team-Leader-Search.png') no-repeat center;
+  background-size: cover;
+}
+.home-why-us-section--section2-icon5 {
+  background: url('../../images/Online-Presence.png') no-repeat center;
+  background-size: cover;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1400px) {
   .home-why-us-section--section2-image {
-    height: 145px;
+    height: 115px;
     width: 100%;
-    max-width: 145px;
+    max-width: 115px;
   }
   
 }

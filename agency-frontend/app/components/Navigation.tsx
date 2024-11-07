@@ -48,13 +48,13 @@ export default function Navigation({}: Props) {
       display: 'flex',
     }}>
       <div className="navigation--container">
-        <div className="navigation--logo">
-          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>P</span>
-          <span style={{fontWeight: 400}}>ULSE</span>
+        <div className="navigation--logo" style={{userSelect: 'none'}}>
+          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400}}>HRILL</span>
           <span style={{fontWeight: 300}}>WEB</span>
         </div>
 
-        <div className="navigation--menu">
+        <div className="navigation--menu"  style={{display: 'none'}}>
           <div className="navigation--menu-item">Home</div>
           <div className="navigation--menu-item">About Us</div>
           <div className="navigation--menu-item">Services +</div>
@@ -62,15 +62,17 @@ export default function Navigation({}: Props) {
           <div className="navigation--menu-item">Contact Us</div>
         </div>
 
-        <div className="navigation--get-started-button">Pulse your project</div>
-        
+        <div className="navigation--get-started-button" title="Email Us" style={{userSelect: 'none'}}><a href="mailto:contact@thrillwebdigital.com" target="_blank">Pulse your project</a></div>
+    
+        <div style={{display: 'none'}}>
         <div className="navigation--hamburger" onClick={toggleMenu}>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
-            <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-          </svg>
+              <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </div>
         </div>
+        {isOpen && <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />}
       </div>
-      {isOpen && <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />}
     </div>
   )
 }
@@ -85,8 +87,8 @@ const HamburgerMenu = ({ isOpen, setIsOpen}: HamburgerProps) => {
     <div className={`hamburger-menu humburger-menu--${isOpen ? 'open' : 'closed'}`}>
       <div className="hamburger-menu--navigation">
         <div className="navigation--logo">
-          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>P</span>
-          <span style={{fontWeight: 400}}>ULSE</span>
+          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400}}>HRILL</span>
           <span style={{fontWeight: 300}}>WEB</span>
         </div> 
         <div className="hamburger-menu--close-button" 
@@ -117,14 +119,14 @@ const HamburgerMenu = ({ isOpen, setIsOpen}: HamburgerProps) => {
         <div className="hamburger-menu--contact-section">
           <div className="hamburger-menu--call-us">
             <div className="hamburger-menu--call-us-title">Call us</div>
-            <div className="hamburger-menu--call-us-text">+1 415 555 5555</div>
-            <div className="hamburger-menu--call-us-text">+1 415 555 5555</div>
+            <div className="hamburger-menu--call-us-text">+1 267 540 8680</div>
+            <div className="hamburger-menu--call-us-text">+1 609 472 2897</div>
           </div>
 
           <div className="hamburger-menu--email-us">
             <div className="hamburger-menu--email-us-title">Send us a message</div>
-            <div className="hamburger-menu--email-us-text">hello@pulseweb.com</div>
-            <div className="hamburger-menu--email-us-text">contact@pulseweb.com</div>
+            <div className="hamburger-menu--email-us-text">contact@thrillwebdigital.com</div>
+            <div className="hamburger-menu--email-us-text">samuel@thrillwebdigital.com</div>
           </div>
         </div>      
 

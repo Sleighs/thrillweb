@@ -10,34 +10,34 @@ export default function HomeNumbersSection (props: IAppProps) {
       <div className="home-numbers-section--content">
         <div className="home-numbers-section--section">
           <div className="home-numbers-section--number">
-            800+
+            80+
           </div>
           <div className="home-numbers-section--description">
-            We deliver results for over 800 clients worldwide every single month.
+            Over 80% of clients return for additional projects.
           </div>
         </div>
         <div className="home-numbers-section--section">
           <div className="home-numbers-section--number">
-            758+
+            100+
           </div>
           <div className="home-numbers-section--description">
-            We have designed 758+ complete brand identities. Every year.
+            We have designed 100+ complete websites and brand identities. 
           </div>
         </div>
         <div className="home-numbers-section--section">
           <div className="home-numbers-section--number">
-            5,000+
+            20+
           </div>
           <div className="home-numbers-section--description">
-           5,000 businesses trust us with their online presence.
+          On average, projects are completed over 20% faster than industry standards.          
           </div>
         </div>
         <div className="home-numbers-section--section">
           <div className="home-numbers-section--number">
-            11+
+            7+
           </div>
           <div className="home-numbers-section--description">
-            11+ years of <span>web design and development</span> expertise.
+            7+ years of delivering <span>web design and development</span> services.
           </div>
         </div>
       </div>

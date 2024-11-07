@@ -25,7 +25,7 @@ export default function Home() {
         <HomeTrustedWorldwideSection />
         <HomeNumbersSection />
         <HomeWhyUsSection />
-        <HomePortfolioHighlight />
+        {/* <HomePortfolioHighlight /> */}
         {/* <HomeContactForm /> */}
         <Footer />
       </main>

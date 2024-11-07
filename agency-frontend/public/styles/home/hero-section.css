@@ -111,6 +111,12 @@
   cursor: pointer;
   gap: 8px;
 }
+.hero-section--social-media-text-intro {
+  color: #ffffffB0;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+}
 .hero-section--social-media-text {
   color: #ffffffB0;
   font-size: 16px;
@@ -119,6 +125,7 @@
 }
 .hero-section--social-media-text:hover {
   color: white;
+  cursor:wait;
 }
 
 

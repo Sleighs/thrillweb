@@ -27,7 +27,7 @@ export default function HomePortfolioHighlight (props:IHomePortfolioHighlightPro
       </div>
       
       <div className="home-portfolio-highlight--image-section">
-        <div className="home-portfolio-highlight--image-section--slideshow">
+        {/* <div className="home-portfolio-highlight--image-section--slideshow">
           <div className="home-portfolio-highlight--image-section--slideshow--slide home-portfolio-highlight--image-section--slideshow--slide1">
             <div className="home-portfolio-highlight--image-section--slideshow--slide--image">
               <img src="https://cdn.dribbble.com/users/2547736/screenshots/16876433/media/829e18ea253efbf97917e2857dbfd168.png?resize=1000x750&vertical=center" alt="Avatar" />
@@ -38,8 +38,10 @@ export default function HomePortfolioHighlight (props:IHomePortfolioHighlightPro
               <img src="https://cdn.dribbble.com/userupload/6950262/file/original-cd0527442106b2cc109a7eb18c40c054.png?resize=1024x768" alt="Avatar" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
+
+      
     </div>
   );
 }

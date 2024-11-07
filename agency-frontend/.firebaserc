@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "resume-bbd43",
+    "main": "thrillweb-5eb18",
+    "thrillweb": "resume-bbd43"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
