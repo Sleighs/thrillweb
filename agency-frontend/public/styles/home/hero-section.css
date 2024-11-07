@@ -134,8 +134,12 @@
   .hero-section--title {
     font-size: 100px;
     max-width: 1050px;
-    
-  line-height: 100px;
+    line-height: 100px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .hero-section--title {
+    font-size: 100px;
   }
 }
 
@@ -153,7 +157,7 @@
 
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 750px) {
   .hero-section--title {
     font-size: 60px;
   }
