@@ -140,6 +140,10 @@
 }
 
 @media screen and (max-width: 1025px) {
+  .hero-section--title {
+    font-size: 85px;
+  }
+
   .hero-section--description {
     columns: 2;
     -webkit-columns: 2;
@@ -147,4 +151,10 @@
     column-gap: 20px;
   }
 
+}
+
+@media screen and (min-width: 750px) {
+  .hero-section--title {
+    font-size: 60px;
+  }
 }
