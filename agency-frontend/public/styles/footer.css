@@ -71,6 +71,7 @@
   width: 100%;
   min-width: 330px;
   color: white;
+  margin: 10px
 }
 .footer--menu {
   display: flex;

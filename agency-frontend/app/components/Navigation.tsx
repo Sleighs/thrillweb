@@ -49,7 +49,7 @@ export default function Navigation({}: Props) {
     }}>
       <div className="navigation--container">
         <div className="navigation--logo" style={{userSelect: 'none'}}>
-          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400, fontSize: '1.46em', transform: 'translateY(-.03em)'}}>T</span>
           <span style={{fontWeight: 400}}>HRILL</span>
           <span style={{fontWeight: 300}}>WEB</span>
         </div>
@@ -62,7 +62,7 @@ export default function Navigation({}: Props) {
           <div className="navigation--menu-item">Contact Us</div>
         </div>
 
-        <div className="navigation--get-started-button" title="Email Us" style={{userSelect: 'none'}}><a href="mailto:contact@thrillwebdigital.com" target="_blank">Pulse your project</a></div>
+        <div className="navigation--get-started-button" title="Email Us" style={{userSelect: 'none'}}><a href="tel:954-261-2792" target="_blank">Pulse your project</a></div>
     
         <div style={{display: 'none'}}>
         <div className="navigation--hamburger" onClick={toggleMenu}>

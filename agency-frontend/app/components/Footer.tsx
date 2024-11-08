@@ -8,12 +8,12 @@ export default function Footer({}: Props) {
       <div className="footer--container">
         <div className="footer--logo" style={{userSelect: 'none'}}>
           {/* <img src="https://imgbox.com/TqzQchEa" alt="ThrillWeb" /> */}
-          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400, fontSize: '50px', transform: 'translateY(-2px)'}}>T</span>
           <span style={{fontWeight: 400, fontSize: '42px'}}>HRILL</span>
           <span style={{fontWeight: 300, fontSize: '42px'}}>WEB</span>
         </div>
         <div className="footer--logo-mobile">
-          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400, fontSize: '50px', transform: 'translateY(-2px)'}}>T</span>
           <span style={{fontWeight: 400, fontSize: '42px'}}>HRILL</span>
           <span style={{fontWeight: 300, fontSize: '42px'}}>WEB</span>
         </div>
@@ -63,6 +63,23 @@ export default function Footer({}: Props) {
           </div>
         </div>
 
+      </div>
+      <div style={{
+        display: 'flex', 
+        justifyContent: 'center', 
+        position: 'absolute',
+        bottom: '0',
+        backgroundColor: '#0F0F0F60', 
+        height: '30px',
+        width: '100%',
+        alignContent: 'center',
+        padding: '5px',
+      }}>
+        <div className="footer--copyright" style={{
+          userSelect: 'none', 
+          fontSize: '.8em', 
+          //color: '#ffffff80',
+        }}>©2024 ThrillWeb Digital. All rights reserved.</div>
       </div>
     </div>
   )
