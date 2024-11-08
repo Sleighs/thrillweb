@@ -194,3 +194,11 @@
     /* display: none; */
   }
 }
+
+@media screen and (max-width: 500px) {
+  .navigation--get-started-button {
+    height: 80%;
+    padding: 12px 15px;
+    font-size: .85em;
+  }
+}
