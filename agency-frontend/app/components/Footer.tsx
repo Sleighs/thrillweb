@@ -8,12 +8,12 @@ export default function Footer({}: Props) {
       <div className="footer--container">
         <div className="footer--logo" style={{userSelect: 'none'}}>
           {/* <img src="https://imgbox.com/TqzQchEa" alt="ThrillWeb" /> */}
-          <span style={{fontWeight: 400, fontSize: '50px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
           <span style={{fontWeight: 400, fontSize: '42px'}}>HRILL</span>
           <span style={{fontWeight: 300, fontSize: '42px'}}>WEB</span>
         </div>
         <div className="footer--logo-mobile">
-          <span style={{fontWeight: 400, fontSize: '50px', transform: 'translateY(-2px)'}}>T</span>
+          <span style={{fontWeight: 400, fontSize: '42px', transform: 'translateY(-2px)'}}>T</span>
           <span style={{fontWeight: 400, fontSize: '42px'}}>HRILL</span>
           <span style={{fontWeight: 300, fontSize: '42px'}}>WEB</span>
         </div>
