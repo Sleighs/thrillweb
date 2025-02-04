@@ -22,13 +22,15 @@ export default function Footer({}: Props) {
           <div className="footer--content">
             <div className="footer--contact-item footer--contact-item-1">
               <div className="footer--contact-item-title">Call us</div>
-              <div className="footer--contact-item-value">+1 954 261 2792</div>              
-              <div className="footer--contact-item-value">+1 267 540 8680</div>
+              <div className="footer--contact-item-value">+1 609 472 2897</div>
+              <div className="footer--contact-item-value">+1 954 261 2792</div>    
             </div>
 
             <div className="footer--contact-item footer--contact-item-2">
               <div className="footer--contact-item-title">Send us a message</div>
               <div className="footer--contact-item-value">contact@thrillwebdigital.com</div>
+              <div className="footer--contact-item-value">samuel@thrillwebdigital.com</div>
+
             </div>
 
             <div className="footer--contact-item footer--contact-item-3">
@@ -79,7 +81,7 @@ export default function Footer({}: Props) {
           userSelect: 'none', 
           fontSize: '.8em', 
           //color: '#ffffff80',
-        }}>©2024 ThrillWeb Digital. All rights reserved.</div>
+        }}>©2025 ThrillWeb Digital. All rights reserved.</div>
       </div>
     </div>
   )
