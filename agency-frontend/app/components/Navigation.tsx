@@ -62,7 +62,7 @@ export default function Navigation({}: Props) {
           <div className="navigation--menu-item">Contact Us</div>
         </div>
 
-        <div className="navigation--get-started-button" title="Email Us" style={{userSelect: 'none'}}><a href="tel:954-261-2792" target="_blank">Pulse your project</a></div>
+        <div className="navigation--get-started-button" title="Email Us" style={{userSelect: 'none'}}><a href="tel:609-472-2897" target="_blank">Pulse your project</a></div>
     
         <div style={{display: 'none'}}>
         <div className="navigation--hamburger" onClick={toggleMenu}>
