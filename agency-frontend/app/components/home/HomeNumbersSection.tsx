@@ -34,10 +34,10 @@ export default function HomeNumbersSection (props: IAppProps) {
         </div>
         <div className="home-numbers-section--section">
           <div className="home-numbers-section--number">
-            7+
+            5+
           </div>
           <div className="home-numbers-section--description">
-            7+ years of delivering <span>web design and development</span> services.
+            5+ years of delivering <span>web design and development</span> services.
           </div>
         </div>
       </div>
