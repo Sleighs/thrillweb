@@ -1,11 +1,38 @@
+import React, { useRef, useEffect } from 'react';
 import '../../../public/styles/home/hero-section.css'
+import video from '../../../public/videos/globe-background.mp4'
+import dynamic from 'next/dynamic';
 
 export interface IAppProps {
 }
 
+const DynamicVideo = dynamic(() => import('./HomeVideo'), {
+  ssr: false,
+  loading: () => <p style={{
+    opacity: 0.25,
+  }}></p>
+})
+
 export default function HeroSection (props: IAppProps) {
+  // const videoRef = useRef(null);
+
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     // Slow down the video to half speed (0.5 playback rate)
+  //     videoRef.current.playbackRate = 0.6;
+  //   }
+  // }, []);
+
   return (
     <div className="hero-section">
+      {/* <div className="video-container"> */}
+      {/* <video ref={videoRef} autoPlay loop muted playsInline className="background-video">
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
+
+      <DynamicVideo />
+      
       <div className="hero-section--content">
         <div className="hero-section--main-content">
           <div className="hero-section--title" style={{userSelect: 'none'}}>
@@ -31,6 +58,9 @@ export default function HeroSection (props: IAppProps) {
           </div>
         </div>
       </div>
+
+      {/* </div> */}
+
     </div>
   );
 }
