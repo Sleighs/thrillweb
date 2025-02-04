@@ -11,7 +11,7 @@ export default function HomeVideo(props: IAppProps) {
   useEffect(() => {
     if (videoRef.current) {
       // Slow down the video
-      videoRef.current.playbackRate = 0.65;
+      videoRef.current.playbackRate = 0.6;
     }
   }, []);
 
