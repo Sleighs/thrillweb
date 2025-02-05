@@ -5,7 +5,7 @@ export interface IAppProps {
 }
 
 export default function HomeVideo(props: IAppProps) {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (videoRef.current) {
