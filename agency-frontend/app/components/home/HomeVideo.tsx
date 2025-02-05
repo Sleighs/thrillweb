@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import video from '../../../public/videos/globe-background.mp4'
-import '../../../public/styles/home/hero-section.css'
+import video from '/../../../public/videos/globe-background.mp4'
+import '/../../../public/styles/home/hero-section.css'
 
 export interface IAppProps {
 }
