@@ -13,7 +13,7 @@ const DynamicVideo = dynamic(() => import('./HomeVideo'), {
 
 export default function HeroSection (props: IAppProps) {
   return (
-    <div className="hero-section">
+    <div className="hero-section hero-section--background">
       <DynamicVideo />
       <div className="hero-section--content">
         <div className="hero-section--main-content">
