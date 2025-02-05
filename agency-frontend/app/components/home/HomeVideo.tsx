@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import video from '/../../../public/videos/globe-background.mp4'
-import '/../../../public/styles/home/hero-section.css'
+import '../../../public/styles/home/hero-section.css'
 
 export interface IAppProps {
 }
@@ -24,7 +23,7 @@ export default function HomeVideo(props: IAppProps) {
         playsInline 
         preload="none"
         className="background-video">
-        <source src={video} type="video/mp4" />
+        <source src={'/videos/globe-background.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     )
