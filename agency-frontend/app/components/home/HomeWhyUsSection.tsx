@@ -120,7 +120,7 @@ export default function HomeWhyUsSection (props: IAppProps) {
 
           <div className="home-why-us-section--section2-item">
             <div className="home-why-us-section--section2-text2">
-              <div  className="home-why-us-section--learn-more-text">Since 2019, our businesses have been expanding, and we have no plans to stop anytime soon.</div>
+              <div  className="home-why-us-section--learn-more-text">Since 2021, our businesses have been expanding, and we have no plans to stop anytime soon.</div>
               <div className="home-why-us-section--learn-more-button" style={{display: 'flex', alignItems: 'center', gap: '7px', userSelect: 'none'}}>
                 {/* <span>Learn more about THRILLWEB</span> */}
                 {/** add link to our phone # */}

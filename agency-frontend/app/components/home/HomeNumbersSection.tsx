@@ -18,10 +18,10 @@ export default function HomeNumbersSection (props: IAppProps) {
         </div>
         <div className="home-numbers-section--section">
           <div className="home-numbers-section--number">
-            100+
+            50+
           </div>
           <div className="home-numbers-section--description">
-            We have designed 100+ complete websites and brand identities. 
+            We have designed 50+ complete websites and brand identities. 
           </div>
         </div>
         <div className="home-numbers-section--section">
@@ -37,7 +37,7 @@ export default function HomeNumbersSection (props: IAppProps) {
             5+
           </div>
           <div className="home-numbers-section--description">
-            5+ years of delivering <span>web design and development</span> services.
+            4+ years of delivering <span>web design and development</span> services.
           </div>
         </div>
       </div>
