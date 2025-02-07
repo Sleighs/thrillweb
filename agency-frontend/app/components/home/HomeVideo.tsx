@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import '../../../public/styles/home/hero-section.css'
 
-export interface IAppProps {
-}
+export interface IAppProps {}
 
 export default function HomeVideo(props: IAppProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
