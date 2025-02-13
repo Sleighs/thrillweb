@@ -1,8 +1,7 @@
 import * as React from 'react';
 import '../../../public/styles/home/home-numbers-section.css';
 
-export interface IAppProps {
-}
+export interface IAppProps {}
 
 export default function HomeNumbersSection (props: IAppProps) {
   return (
